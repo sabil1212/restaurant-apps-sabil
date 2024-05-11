@@ -28,6 +28,7 @@ const initApp = async () => {
     '/': showList,
     '/like': Like,
     '/detail': render,
+    '/maincontent': showList,
   };
 
   const route = window.location.pathname;
